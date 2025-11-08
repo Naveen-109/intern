@@ -1,0 +1,13 @@
+{
+  "buildCommand": "cd apps/web && npm run build",
+  "outputDirectory": "apps/web/.next",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "rootDirectory": "apps/web",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "VANNA_API_BASE_URL": "@vanna_api_base_url",
+    "VANNA_API_KEY": "@vanna_api_key"
+  }
+}
+
